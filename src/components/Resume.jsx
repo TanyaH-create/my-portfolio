@@ -5,7 +5,7 @@ function Resume() {
     <div>
       <h2>Resume</h2>
       <br/>
-      <h2>Download my <a href='./src/assets/resume/resume.pdf'>resume</a></h2>
+      <h2>Download my <a href='#'>resume</a></h2>
       <h3> Front-end Proficiencies </h3>
       <ul>
         <li>HTML</li>
