@@ -33,12 +33,9 @@ header, .page, footer {
 .footer {
   padding: 20px;
   background-color: #1094c6; /* optional background color */
-  color: white;
-  text-align: center;
 }
 
 .nav .nav-link {
-
   color: white; 
   text-decoration: none;
 }

@@ -2,23 +2,29 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer text-white py-4">
    
-    <footer>
-      <a href="https://github.com/TanyaH-create" target="_blank" rel="noopener noreferrer">
-         <img src="./src/assets/images/github-mark.png" alt="GitHib Logo" className="logo" ></img>
-      </a>
+     <footer className="container text-center">
+      <div className="row justify-content-center align-items-center">
 
-      <a href="https://www.linkedin.com/in/tanya-hauck-603895278/"    target="_blank" rel="noopener noreferrer">
-         <img src="./src/assets/images/LinkedInLogo.png" alt="Linked In Logo" className="logo" ></img>
-      </a>
+          <div className="col-auto">
+            <a href="https://github.com/TanyaH-create" target="_blank" rel="noopener noreferrer">
+             <img src=".\src\assets\images\github-mark.png" alt="GitHib Logo" className="logo" ></img>
+            </a>
+          </div>
+          <div className="col-auto mx-5">
+            <a href="https://www.linkedin.com/in/tanya-hauck-603895278/"    target="_blank" rel="noopener noreferrer">
+              <img src="./src/assets/images/LI-In-Bug.png" alt="Linked In Logo" className="logo" ></img>
+            </a>
+          </div>
+          <div className="col-auto">
+            <a href="https://stackoverflow.com/users/29269726/tanyah" target="_blank" rel="noopener noreferrer">
+              <img src="./src/assets/images/logo-stackoverflow2.png" alt="Stack Overflow Logo" className="logo"></img>
+            </a>
+          </div>
 
-      <a href="https://stackoverflow.com/users/29269726/tanyah" target="_blank" rel="noopener noreferrer">
-         <img src="./src/assets/images/logo-stackoverflow.png" alt="Stack Overflow Logo" className="logo"></img>
-      </a>
-    
-    </footer>
-      
+      </div>
+     </footer>
     </div>
   );
 }
