@@ -68,3 +68,6 @@ header, .page, footer {
   margin-bottom: 20px;
 }
 
+.form-label {
+  display:block;
+}
