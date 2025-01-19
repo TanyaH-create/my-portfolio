@@ -71,3 +71,10 @@ header, .page, footer {
 .form-label {
   display:block;
 }
+
+
+.logo {
+  width: 50px;
+  height: auto;
+  margin: 50px
+}
