@@ -1,52 +1,70 @@
+/*App.css*/
+/*reset the CSS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+html, body {
+  background-color: whitesmoke;
+}
+
+
+header, .page, footer {
+  width: 100%;
+}
+
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .header {
-  background: '#282c34';
-  color: 'white';
-  padding: '1rem';
+  background: #1094c6 ;
+  color: white;
 }
 
+.footer {
+  padding: 20px;
+  background-color: #1094c6; /* optional background color */
+  color: white;
+  text-align: center;
+}
 
+.nav .nav-link {
 
+  color: white; 
+  text-decoration: none;
+}
+
+.nav .nav-link:hover {
+  color: tan; 
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
+/* Active link color - matches hover */
+.active-link {
+  color: tan; /* Same as hover color */
+  font-weight: bold; /* Optional: Highlight active link further */
+}
+
+.about-title {
+  font-size: 2rem; /* 32px if the root font size is 16px */
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+/* Body Text */
+.about-text {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.6; /* Increases readability */
+  color: #333; /* Darker text for better contrast */
+  margin-bottom: 20px;
+}
 
