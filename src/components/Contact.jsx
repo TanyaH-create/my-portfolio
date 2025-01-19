@@ -1,4 +1,4 @@
-import React, {useState } from 'react'
+import React, {useState } from 'react';
 
 function Contact() {
   //create a hook for data gathered from the form
