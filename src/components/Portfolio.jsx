@@ -44,9 +44,9 @@ function Portfolio() {
   
   return (
     <section id="portfolio" className="container-fluid">
-      <h2>Portfolio</h2>
+      <h2 className="page-title">Portfolio</h2>
       
-        <div className="row">
+        <div className="row" >
           {projects.map((project, index) => (
             <div className="col-12 col-sm-6 col-md-4 mb-4" key={index}>
               <Project

@@ -1,0 +1,56 @@
+:root {
+    /*Variables*/
+    --light-text:  #d3d9d4; 
+    --dark-text: #124e66;
+    --bg-header:  #d3d9d4;
+    --bg-page: #748d92;
+  }
+
+  #portfolio {
+    color: var(--light-text); 
+    font-weight: bold;
+  }
+
+  /* Portfolio item base styles */
+.portfolio-item {
+
+}
+  /* Image container for additional styling */
+  .project-image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Project info text */
+  .project-info {
+    padding: 15px;
+    background: white;
+    text-align: center;
+    transition: transform 0.3s ease;
+    z-index: 10;
+  }
+
+/* Hover effect for the portfolio item */
+.portfolio-item:hover {
+  transform: scale(1.1); /* Slightly enlarges the project card */
+  box-shadow: 0 8px 24px #212A31; /* Adds a pop-up shadow */
+  z-index: 20; /* Ensures the hovered project is on top */
+}
+
+/* Image hover effect */
+.portfolio-item:hover .project-image {
+  transform: scale(1.1); /* Zoom-in effect on the image */
+}
+
+/* Optional: Brightness or color effects */
+.portfolio-item:hover .project-image {
+  filter: brightness(1.2); /* Makes the image slightly brighter */
+}
+
+

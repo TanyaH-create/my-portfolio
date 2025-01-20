@@ -126,7 +126,7 @@ function Contact() {
 
   return (
     <section>
-        <h1>Contact</h1>
+       <h2 className="page-title">Contact</h2>
     <div>
       <form onSubmit={handleSubmit}>
         <div>
@@ -177,7 +177,7 @@ function Contact() {
     </div>
     </section>
 
-  );
+   );
 }
 
 export default Contact
