@@ -1,21 +1,22 @@
-//Header.js
 import React from 'react';
 import Navbar from './Navbar';
 
-
-//Header will encapsulate the navbar
-//Use bootstarp to align the Name to the right and teh Navbafr to the left
 function Header() {
-  
   return (
-    <header className='header  border-bottom'>
-      <div className="container d-flex justify-content-between px-0">
-        <h1 className="mb-0 flex-shrink-0">Tanya Hauck</h1>
+    <header className="header border-bottom">
+      <div className="container d-flex justify-content-between align-items-center px-3">
+        <div className="d-flex align-items-center">
+          <img
+            src="./src/assets/images/TH-monogram.png"
+            alt="Monogram"
+            className="monogram img-fluid custom-margin-right"
+          />
+          <h1 className="mb-0">Tanya Hauck</h1>
+        </div>
         <Navbar />
       </div>
     </header>
-
-  )  
+  );
 }
 
 export default Header;

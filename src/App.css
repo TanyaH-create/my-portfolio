@@ -1,16 +1,22 @@
 /*App.css*/
 /*reset the CSS*/
-
+:root {
+  /*olor Scheme Variables*/
+  --light-text:  #d3d9d4; 
+  --dark-text: #124e66;
+  --bg-header:  #d3d9d4;
+  --bg-page: #748d92;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  font-family:  'Lucida Console', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
 
 html, body {
-  background-color: whitesmoke;
+  background-color: var(--bg-page);
 }
 
 
@@ -26,19 +32,50 @@ header, .page, footer {
 }
 
 .header {
-  background: #1094c6 ;
-  color: white;
+  background: var(--bg-header);
+  color: #124e66;
+  font-size: 2rem; /* 32px if the root font size is 16px */
+  font-weight: bold;
+  position: relative; /* Ensures the logo positioning works correctly */
+  z-index: 10; /* Keeps the header on top of other content */
+  padding: 20px;
 }
 
+.monogram-container {
+  position: relative; /* Set the container relative for absolute positioning inside */
+  display: flex;
+  align-items: center;
+}
+
+.monogram {
+  position: absolute;
+  
+  width: 100px; /* Size the logo */
+  height: 100px; /* Ensure aspect ratio */
+  object-fit: cover;
+  z-index: -1; /* Allows it to appear behind content if necessary */
+}
+
+/* Custom margin to achieve exactly 5px spacing */
+.custom-margin-right {
+  margin-right: 5px;
+}
+
+h1 {
+  margin-left: 100px; /* Add spacing to ensure text isn't overlapped by the logo */
+}
+
+
 .footer {
-  padding: 20px;
-  background-color: #1094c6; /* optional background color */
+  padding: 10px;
+  background-color:var(--bg-header); /* optional background color */
 }
 
 .nav .nav-link {
-  color: white; 
+  color: var(--dark-text); 
   text-decoration: none;
 }
+
 
 .nav .nav-link:hover {
   color: tan; 
@@ -47,31 +84,78 @@ header, .page, footer {
 
 /* Active link color - matches hover */
 .active-link {
-  color: tan; /* Same as hover color */
-  font-weight: bold; /* Optional: Highlight active link further */
+  color: tan; 
+  font-weight: bold; 
 }
 
-.about-title {
+
+/*Main title on each page */
+.page-title {
   font-size: 2rem; /* 32px if the root font size is 16px */
   font-weight: bold;
   margin-bottom: 16px;
+  color:  #d3d9d4; 
 }
 
-/* Body Text */
+/* About Text */
 .about-text {
   font-size: 1.125rem; /* 18px */
   line-height: 1.6; /* Increases readability */
-  color: #333; /* Darker text for better contrast */
+  color:  var(--light-text); 
   margin-bottom: 20px;
 }
 
+/*Contact Page*/
+.error{
+  display: block;
+  color: var(--light-text)
+  
+}
 .form-label {
   display:block;
+  color: var(--light-text);
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+/*Resume*/
+.secondary-title, .list-text {
+  color: var(--light-text);
+  font-weight: bold;
+  line-height: 1.6;
 }
 
+.resume-link {
+  color: var(--dark-text); 
+  text-decoration: none; /* Ensure no underline on hover */
+  font-weight: bold;
 
+}
+.resume-link:hover {
+  color: tan; 
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
+/*Footer*/
 .logo {
   width: 50px;
   height: auto;
-  margin: 50px
+  margin: 0px
 }
+
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .monogram {
+    width: 100px; /* Reduce size on smaller screens */
+  }
+
+  .header {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+
