@@ -1,0 +1,59 @@
+/* Project.css */
+/* Styling the image container with light gray background */
+.portfolio-item {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Make it responsive by using 100% width */
+  max-width: 100%; /* Ensure the item doesn't stretch beyond the container */
+ 
+}
+/* Container for the image with light background */
+.project-image-container {
+  width: 100%;  /* Ensure the container takes full width */
+  height: 200px;  /* Fixed height for consistency */
+  background-color: lightgrey;  /* Light gray background when image is smaller */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}    
+/*styling the image to cover the container*/
+  .project-image {
+    width: 100%;  /* Make the image responsive */
+    object-fit: cover; /* Crop the image to fill the area */
+    border-radius: 4px;
+  }
+  
+  .project-info {
+    background-color: #fff;  /* White background for the text section */
+    padding: 20px;
+  }
+  
+  .project-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-info p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .project-links a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-links a:hover {
+    text-decoration: underline;
+  }
+
+  .logo-project {
+    width: 50px;
+    height: auto;
+      
+  }
