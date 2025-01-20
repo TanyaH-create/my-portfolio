@@ -4,7 +4,7 @@ import React from 'react'
 //The navbar component is passed down as a child
 function Page({children}) {
   return (
-    <section>
+    <section className="container-fluid">
        {children}
     </section>
   );
