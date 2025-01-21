@@ -149,17 +149,29 @@ h1 {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0px;
   }
 
   .monogram {
     width: 80px; /* Reduce size on smaller screens */
-    height: 80PX
+    height: 80PX;
+    margin-right: 200px;
   }
 
   .header {
     flex-wrap: wrap;
     text-align: center;
   }
+
+  .d-flex.align-items-center {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+    justify-content: center;
+    margin-bottom: 2rem;    /* Add space below the monogram and name */
+   }
+
+ 
 }
 
