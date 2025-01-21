@@ -21,7 +21,7 @@ function Project({ title, deployedLink, repoLink, imageSrc, description }) {
         <div className="project-info-description">
            <p>{description}</p>
            <a href={repoLink} target="_blank" rel="noopener noreferrer">
-             <img src=".\src\assets\images\github-mark.png" alt="GitHib Logo" className="logo-project" />
+             <img src="/assets/images/github-mark.png" alt="GitHib Logo" className="logo-project" />
            </a>
         </div>
       </div>

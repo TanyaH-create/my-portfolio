@@ -9,35 +9,35 @@ function Portfolio() {
       title: 'Christmas Assistance', 
       deployedLink: 'https://revengelmfao.github.io/christmas-assistance-application/', 
       repoLink: 'https://github.com/TanyaH-create/christmas-assistance-program', 
-      imageSrc: './src/assets/images/Christmas_Assistance_Project_Resized.png',
+      imageSrc: '/assets/images/Christmas_Assistance_Project_Resized.png',
       description: 'Interactive Front End Application'
     },
     { 
       title: 'Weather Dashboard', 
       deployedLink: 'https://weather-dashboard-challenge-gvnq.onrender.com/', 
       repoLink: 'https://github.com/TanyaH-create/weather-dashboard-challenge', 
-      imageSrc: './src/assets/images/weather-dashboard.png',
+      imageSrc: '/assets/images/weather-dashboard.png',
       description: 'Full Stack API Demo'
     },
     { 
       title: 'Readme Generator', 
       deployedLink: 'https://drive.google.com/file/d/1ap_g0afTHNN4WEPI1nkhBGUq6-Yq-Joq/view?usp=sharing', 
       repoLink: 'https://github.com/TanyaH-create/Readme-File-Generator', 
-      imageSrc: './src/assets/images/readme-generator.jpg',
+      imageSrc: '/assets/images/readme-generator.jpg',
       description: 'Command Line Application'
     },
     { 
       title: 'Vehicle Builder', 
       deployedLink: 'https://drive.google.com/file/d/1ap_g0afTHNN4WEPI1nkhBGUq6-Yq-Joq/view?usp=sharing', 
       repoLink: 'https://github.com/TanyaH-create/Vehicle-Builder', 
-      imageSrc: './src/assets/images/Vehicle-Builder.jpg',
+      imageSrc: '/assets/images/Vehicle-Builder.jpg',
       description: 'Command Line Application'
     },
     { 
       title: 'Employee Manager', 
       deployedLink: 'https://drive.google.com/file/d/1A9OF5VKEh8UCRyl7rxp294oydKIAMIjz/view?usp=sharing', 
       repoLink: 'https://github.com/TanyaH-create/employee-manager', 
-      imageSrc: './src/assets/images/Employee-Manager.png',
+      imageSrc: '/assets/images/Employee-Manager.png',
       description: 'Command Line Application'
     },
   ];

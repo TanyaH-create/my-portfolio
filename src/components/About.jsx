@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="about-container">
       <h2 className="page-title">About Me</h2>
-      <img src=".\src\assets\images\profile.png" alt="Profile Picture" ClassName="about-image"></img>
+      <img src="/assets/images/profile.png" alt="Profile Picture" className="about-image"></img>
       <p className="about-text">
          With over 22 years of experience in the plastics machinery business as an electrical engineer, 
          I have honed my skills in programming and automation. My expertise spans various programming languages
