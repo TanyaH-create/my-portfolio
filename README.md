@@ -56,7 +56,7 @@ You'll receive notifications if the fields are incomplete or if there are errors
 - Netlify (for final deployment)
 
 ## Deployed Application
-Check out my live portfolio application [here](your-netlify-url).
+Check out my live portfolio application [here](https://tanya-hauck-portfolio.netlify.app/).
 
 ## GitHub Repository
 The source code for this project can be found in my [GitHub Repository](https://github.com/TanyaH-create/my-portfolio) .
