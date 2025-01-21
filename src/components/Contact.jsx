@@ -175,6 +175,13 @@ function Contact() {
         </button>  
       </form>
     </div>
+    <div>
+      <p id="contact-me">
+        <br/>
+        <br/>
+        email: dougtanyah@gmail.com <br/>
+        phone: 440-289-7296</p>
+    </div>
     </section>
 
    );
