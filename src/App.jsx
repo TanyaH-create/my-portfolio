@@ -31,14 +31,9 @@ function App() {
             </Routes>
             </div>
           </main>
-
-          
-          
-          <Footer />
+        <Footer />
       </div>
-
-    </Router>
-  
+   </Router>
   );
 }
 

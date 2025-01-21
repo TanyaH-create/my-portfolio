@@ -6,6 +6,7 @@
   --dark-text: #124e66;
   --bg-header:  #d3d9d4;
   --bg-page: #748d92;
+  --contrast-text: #c0392b;
 }
 * {
   margin: 0;
@@ -71,30 +72,27 @@ h1 {
   background-color:var(--bg-header); /* optional background color */
 }
 
+.nav .nav-link:hover {
+  color: #CD6155; 
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
 .nav .nav-link {
   color: var(--dark-text); 
   text-decoration: none;
 }
 
-
-.nav .nav-link:hover {
-  color: tan; 
-  text-decoration: none; /* Ensure no underline on hover */
+.nav .nav-link-active {
+  color: var(--contrast-text); 
+  text-decoration: none;
 }
-
-/* Active link color - matches hover */
-.active-link {
-  color: tan; 
-  font-weight: bold; 
-}
-
 
 /*Main title on each page */
 .page-title {
   font-size: 2rem; /* 32px if the root font size is 16px */
   font-weight: bold;
   margin-bottom: 16px;
-  color:  #d3d9d4; 
+  color: var(--light-text); 
 }
 
 /* About Text */
@@ -131,7 +129,7 @@ h1 {
 
 }
 .resume-link:hover {
-  color: tan; 
+  color:  #cd6155; 
   text-decoration: none; /* Ensure no underline on hover */
 }
 
@@ -150,7 +148,8 @@ h1 {
   }
 
   .monogram {
-    width: 100px; /* Reduce size on smaller screens */
+    width: 80px; /* Reduce size on smaller screens */
+    height: 80PX
   }
 
   .header {
